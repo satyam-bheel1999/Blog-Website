@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: greenyellow;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header ul {
+    position: relative;
+    left: 0;
+}
+
+header li {
+    float: left;
+    list-style: none;
+    padding: 20px;
+    padding-top: 7px;
+    margin: 8px;
+}
+
+header li a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+    color: darkviolet;
+    /* overflow: hidden; */
+  
+}
+
+header li a:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+    cursor: pointer;
+}
+
+.text-1 {
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+    top: 15px;
+    font-family: sans-serif;
+    color: crimson;
+
+}
+.text-1 a{
+    text-decoration: none;
+}
+
+#home{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/img/d9794f0f070ff1ae35fddf59c7b6788f.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.info {
+    background: white;
+    height: 350px;
+    width: 1090px;
+    position: relative;
+    margin: auto;
+    top: 90px;
+    border-radius: 8px;
+}
+
+.text {
+    position: relative;
+    top: 50px;
+    left: 18px;
+    color: lightcoral;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.text-2 {
+    position: relative;
+    top: 35%;
+    left: 8%;
+    font-size: 22px;
+    font-family: monospace;
+    color: purple;
+    font: bolder;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .09em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+   
+
+#computer-1 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.heading {
+    position: relative;
+    top: 65px;
+    left: 20px;
+    font-size: 23px;
+    text-align: center;
+}
+
+#sub-heading {
+    top: 70px;
+
+}
+
+#text-3 {
+    top: 80px;
+}
+
+#sub-heading-1 {
+    top: 90px;
+}
+
+#text-4 {
+    top: 100px;
+
+}
+
+#sub-heading-2 {
+    top: 120px;
+}
+
+#text-5 {
+    top: 110px;
+}
+
+#sub-heading-3 {
+    top: 140px;
+}
+
+#text-6 {
+    top: 160px;
+}
+
+#sub-heading-4 {
+    top: 230px;
+}
+
+#text-7 {
+    top: 240px;
+}
+
+#sub-heading-5 {
+    top: 290px;
+}
+
+#text-9 {
+    top: 320px;
+}
+
+#sub-heading-6 {
+    top: 400px;
+}
+
+#text-10 {
+    top: 420px;
+}
+
+.sub-heading {
+    position: relative;
+    text-align: justify;
+    width: 80%;
+
+    left: 150px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.text-3 {
+    position: relative;
+    text-align: justify;
+    width: 80%;
+    left: 150px;
+    font-size: 18px;
+}
+
+.computer-2 {
+    position: relative;
+    top: 60px;
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+
+}
+
+.img-1 {
+    position: relative;
+    top: 120px;
+    left: 20%;
+}
+
+.computer-3 {
+    position: relative;
+    top: 150px;
+    height: 100%;
+    width: 100vw;
+}
+
+.heading-1 {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    top: 250px;
+}
+
+#text-8 {
+    top: 260px;
+}
+
+/* mobile-troubleshooting */
+
+#mobile {
+    height: 100vmax;
+    width: 100%;
+    top: 480px;
+    position: relative;
+}
+
+#feedback{
+    height: 100vmax;
+    width: 100%;
+    position: relative;
+    /* top: 750px; */
+    /* background-color: blueviolet; */
+
+}
+#feedback h1{
+    position: relative;
+    top: 55px;
+    text-align: center;
+}
+#feedback form{
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+form input{
+    height: 30px;
+    width: 200px;
+}
+form textarea{
+    width: 500px;
+}
+.comment-container {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    top: 70px;
+  }
+  .comment-container p {
+    margin: 0;
+  }
+  #facebook img{
+    height: 35px;
+    width: 35px;
+    margin: 20px;
+  }
+  #linkedin img{
+    height: 35px;
+    width: 35px;
+    margin: 20px;
+  }
+  #instagram img{
+    height: 35px;
+    width: 35px;
+    margin: 20px;
+  }
+  
+  .social-media{
+    position: relative;
+    display: flex;
+    top: 50px;
+    /* left: 50%; */
+    justify-content: center;
+    /* border: 2px solid gray; */
+
+
+  }
+  .social-media img:hover{
+    border-bottom: 2px solid purple;
+  }
+
+  #contact{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #696969;
+  }
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    height: 28px;
+    font-size: 18px;
+}
+
+textarea {
+    height: 100px;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
